@@ -75,7 +75,8 @@ main {
 }
 
 main  img { 
-  width: 160px;
+  width: 180px;
+  height: 180px;
 }
 
 main .container {
