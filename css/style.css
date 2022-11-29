@@ -24,9 +24,9 @@ header {
 }
 
 header .container {
-  width: 450px;
+  width: 400px;
   margin: 0 auto;
-  padding: 18px;
+  padding: 6px;
   display: flex;
   align-items: center;
   /* outline: 1px solid red; */
@@ -34,7 +34,7 @@ header .container {
 
 
 header .container div + div {
-  margin-left: 32px;
+  margin-left: 16px;
 }
 
 header a {
@@ -47,7 +47,7 @@ a:hover {
 
 header h1 {
   font-weight: normal;
-  font-size: 24px;
+  font-size: 22px;
   
 }
 
@@ -75,14 +75,14 @@ main {
 }
 
 main  img { 
-  width: 180px;
-  height: 180px;
+  width: 130px;
+  height: 130px;
 }
 
 main .container {
-  width: 450px;
+  width: 400px;
   margin: 0 auto;
-  padding: 18px;
+  padding: 8px;
   display: flex;
   align-items: center;
     /* outline: 1px solid red; */
