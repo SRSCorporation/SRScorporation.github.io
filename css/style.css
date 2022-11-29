@@ -2,6 +2,7 @@
 
 body {
   margin: 0;
+
 }
 
 h1,
@@ -23,20 +24,31 @@ header {
 }
 
 header .container {
-  width: 500px;
+  width: 450px;
   margin: 0 auto;
-  padding: 32px;
+  padding: 18px;
   display: flex;
   align-items: center;
+  /* outline: 1px solid red; */
 }
+
 
 header .container div + div {
   margin-left: 32px;
 }
 
+header a {
+  color: inherit;
+}
+
+a:hover {
+
+}
+
 header h1 {
   font-weight: normal;
   font-size: 24px;
+  
 }
 
 ul {
@@ -58,11 +70,28 @@ header .icon {
 
 /* main */
 
-main .container {
-  width: 400px;
-  margin: 0 auto;
-
+main {
+  background: #efefef;
 }
+
+main  img { 
+  width: 240px;
+}
+
+main .container {
+  width: 450px;
+  margin: 0 auto;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+    /* outline: 1px solid red; */
+}
+
+
+main .container div + div {
+  margin-left: 32px;
+}
+
 
 main h1 {
   font-size: 24px;
@@ -84,11 +113,21 @@ main h2 {
 main p {
   line-height: 1.8;
   margin-top: 16px;
+
+}
+
+main ul {
+  list-style: square;
+  padding: 0;
+  line-height: 1.8;
+  display: inline-block;
+  margin-top: 16px;
 }
 
 main section + section {
   margin-top: 60px;
 }
+
 
 /* footer */
 
