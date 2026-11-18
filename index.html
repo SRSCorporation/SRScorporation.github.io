@@ -4,9 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="color-scheme" content="light dark" />
-    <meta name="description" content="株式会社エスアールエス（三重県）— 業務用冷凍冷蔵庫・製氷機・食器洗浄機・業務用空調機・業務用ランドリー機器の修理と点検・保守。ホームページ作り直しの試作ページです。" />
+    <meta name="description" content="株式会社エスアールエス（三重県）— 業務用冷凍冷蔵庫・製氷機・食器洗浄機・業務用空調機・業務用ランドリー機器の修理と点検・保守。" />
     <link rel="icon" href="data:," />
-    <title>株式会社エスアールエス｜業務用冷凍冷蔵庫・製氷機・食器洗浄機・空調機・ランドリー機器の修理（試作）</title>
+    <title>株式会社エスアールエス｜業務用冷凍冷蔵庫・製氷機・食器洗浄機・空調機・ランドリー機器の修理</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800;900&family=Archivo:wght@600;800&display=swap" rel="stylesheet" />
@@ -74,13 +74,6 @@
       button,[role="button"],select,summary,input:not([type="checkbox"],[type="radio"]){min-height:2.25rem}
       .wrap{max-width:1140px;margin:0 auto;padding:0 20px}
       .en{font-family:"Archivo","Noto Sans JP",sans-serif;letter-spacing:.14em}
-
-      /* ---------- trial bar ---------- */
-      .trial-bar{background:var(--navy);color:#dcebe7;font-size:.8rem}
-      .trial-bar .wrap{display:flex;gap:10px;align-items:center;padding-top:7px;padding-bottom:7px;flex-wrap:wrap}
-      .trial-bar .tag{background:var(--amber);color:#fff;font-weight:800;font-size:.72rem;padding:2px 10px;border-radius:99px;letter-spacing:.06em;white-space:nowrap}
-      .trial-bar p{margin:0}
-      .trial-bar a{color:#9fd8cb;font-weight:700}
 
       /* ---------- header ---------- */
       header.site{
@@ -265,10 +258,6 @@
       .area-card p{color:var(--ink-2);margin:0 0 14px;font-size:.95rem}
       .area-name{font-size:1.7rem;font-weight:900;color:var(--navy);line-height:1.3}
       @media (prefers-color-scheme: dark){.area-name{color:#7fd6c6}}
-      .todo-pill{
-        display:inline-block;font-size:.72rem;font-weight:800;color:var(--amber-dark);
-        background:var(--amber-soft);border:1px solid #f0c9ae;border-radius:99px;padding:2px 10px;vertical-align:middle;margin-left:8px;
-      }
       .cust-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:10px}
       .cust-list li{background:var(--surface-2);border-radius:10px;padding:14px 16px;font-weight:700;font-size:.95rem}
       .cust-list li span{display:block;font-weight:400;font-size:.82rem;color:var(--muted);margin-top:2px}
@@ -312,19 +301,6 @@
       .contact-side p{font-size:.85rem;color:#9db8c0;margin:0}
       .copy-msg{font-size:.8rem;color:#39d3ae;min-height:1.2em;margin-top:6px}
 
-      /* ---------- owner checklist ---------- */
-      .owner{
-        border:1.5px dashed var(--amber);background:var(--amber-soft);border-radius:14px;padding:28px 30px;
-      }
-      @media (prefers-color-scheme: dark){.owner{background:#241708}}
-      .owner h2{font-size:1.2rem;font-weight:900;margin:0 0 6px}
-      .owner>p{color:var(--ink-2);font-size:.92rem;margin:0 0 18px}
-      .owner ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:10px 26px}
-      .owner li{display:flex;gap:11px;align-items:flex-start;font-size:.94rem}
-      .owner li .box{flex:none;width:19px;height:19px;border:2px solid var(--amber);border-radius:5px;margin-top:4px;background:var(--surface)}
-      .owner li b{font-weight:800}
-      .owner li span{color:var(--ink-2)}
-
       /* ---------- footer ---------- */
       footer.site{background:var(--navy-2);color:#9db8c0;padding:44px 0 34px;font-size:.88rem}
       .foot-in{display:flex;gap:26px;flex-wrap:wrap;align-items:flex-start;justify-content:space-between}
@@ -364,7 +340,6 @@
         .svc-grid{grid-template-columns:1fr}
         .flow{grid-template-columns:1fr}
         .maint ul{grid-template-columns:1fr}
-        .owner ul{grid-template-columns:1fr}
         .cust-list{grid-template-columns:1fr}
         .hero-in{padding:58px 0 52px}
         .hero-facts div{padding-right:18px;margin-right:18px}
@@ -379,13 +354,6 @@
     </style>
   </head>
   <body>
-    <div class="trial-bar">
-      <div class="wrap">
-        <span class="tag">試作プレビュー</span>
-        <p>ホームページ作り直しの試作です。文言・写真・掲載情報は仮のもので、本公開前に確定します。現行サイトは <a href="https://srscorporation.github.io/" target="_blank" rel="noopener">srscorporation.github.io</a> です。</p>
-      </div>
-    </div>
-
     <header class="site">
       <div class="wrap header-in">
         <a class="brand" href="#top" aria-label="株式会社エスアールエス トップへ">
@@ -640,9 +608,8 @@
           <div class="area-grid">
             <div class="area-card reveal">
               <h3>対応エリア</h3>
-              <div class="area-name">三重県<span class="todo-pill">範囲は本公開時に確定</span></div>
+              <div class="area-name">三重県</div>
               <p style="margin-top:14px">三重県内を中心に訪問します。県外・遠方の場合も、機器や症状により対応可能な場合がありますので、まずはご相談ください。</p>
-              <p class="pending">※ 試作では県単位までの表記です。市町単位の範囲や出張費の扱いは、本公開時に確定して掲載します。</p>
             </div>
             <div class="area-card reveal">
               <h3>ご相談の多い業種（例）</h3>
@@ -686,9 +653,8 @@
                 ほか
               </td></tr>
               <tr><th>資本金</th><td>300万円</td></tr>
-              <tr><th>対応エリア</th><td>三重県 <span class="pending">（詳細な範囲は本公開時に掲載）</span></td></tr>
+              <tr><th>対応エリア</th><td>三重県</td></tr>
               <tr><th>お問い合わせ</th><td>InstagramのDMから <span class="pending">（現在、新規の受付を停止しております）</span></td></tr>
-              <tr><th>その他</th><td><span class="pending">営業時間・電話番号・メールアドレスは、本公開時に掲載するかどうかを含めて確定します（現行サイトでは非掲載）。</span></td></tr>
             </table>
           </div>
         </div>
@@ -711,23 +677,6 @@
         </div>
       </section>
 
-      <!-- OWNER CHECKLIST -->
-      <section style="padding-top:0">
-        <div class="wrap">
-          <div class="owner reveal">
-            <h2>本公開までに決めること（試作メモ）</h2>
-            <p>この試作を見ながら、以下を決めれば本番ページにできます。決まった項目から順に反映します。</p>
-            <ul>
-              <li><span class="box"></span><div><b>電話番号を載せるか</b><br /><span>載せる場合は番号と受付時間を確定</span></div></li>
-              <li><span class="box"></span><div><b>メールアドレスを載せるか</b><br /><span>現行サイトは非掲載。迷惑メール対策も含めて検討</span></div></li>
-              <li><span class="box"></span><div><b>住所・営業時間・定休日</b><br /><span>掲載する範囲を確定</span></div></li>
-              <li><span class="box"></span><div><b>対応エリアの確定</b><br /><span>三重県内の範囲と、県外対応・出張費の有無</span></div></li>
-              <li><span class="box"></span><div><b>料金の目安を載せるか</b><br /><span>出張費・点検費などの目安表の有無</span></div></li>
-              <li><span class="box"></span><div><b>写真の差し替え</b><br /><span>現在はイメージ写真。自社の施工写真があれば差し替え</span></div></li>
-            </ul>
-          </div>
-        </div>
-      </section>
       <!-- RECEPTION MODAL -->
       <div class="modal-overlay" id="igModal" hidden>
         <div class="modal-tile" role="dialog" aria-modal="true" aria-labelledby="igModalTitle">
@@ -758,7 +707,7 @@
         </div>
         <div class="foot-bottom">
           <span>© 2026 株式会社エスアールエス</span>
-          <span>現行サイト：<a class="ext" href="https://srscorporation.github.io/" target="_blank" rel="noopener">srscorporation.github.io</a>（このページは作り直しの試作です）</span>
+          <span><a class="ext" href="https://srscorporation.github.io/" target="_blank" rel="noopener">srscorporation.github.io</a></span>
         </div>
       </div>
     </footer>
